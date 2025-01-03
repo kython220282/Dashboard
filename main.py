@@ -1,4 +1,8 @@
 import streamlit as st
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from pages.tab_one.py import tab_one
 from pages.tab_two.py import tab_two
