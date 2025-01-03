@@ -1,25 +1,37 @@
-# **Streamlit Multi-Page Application with Top Navigation**
+# **Streamlit Multi-Tab Application**
 
-This repository contains a multi-page application shell built with [Streamlit](https://streamlit.io/), designed for interactive data visualization and user-friendly interfaces. 
+This repository contains a multi-tab application built with [Streamlit](https://streamlit.io/), designed for interactive data visualization and user-friendly interfaces. The application leverages `st.tabs` for a clean and intuitive navigation experience.
 
 ## **Features**
 
-- **Multi-Page Structure**: Each page serves a distinct purpose, with separate files for logic and layout.
-- **Top Navigation Bar**: Navigate between pages using a horizontal tab-like navigation bar for a **modern and intuitive user experience**.
+- **Tab-Based Navigation**: Users can switch between tabs for different content and functionality.
 - **Two-Column Layout**:
   - **First Column (1:3 ratio)**: Contains reusable components such as:
     - **Date Range Picker**: Select a date range for filtering data.
     - **Dropdown Filter**: Choose from predefined options.
     - **Multi-Select Filter**: Select multiple items from a list.
-  - **Second Column**: Add **page-specific content and visualizations**.
+  - **Second Column**: Displays tab-specific content and visualizations.
 - **Modular Code Design**:
-  - Shared components are encapsulated in **reusable functions** for consistency and maintainability.
-  - Each page is implemented as a standalone module for **easy scalability**.
+  - Shared components are encapsulated in reusable functions for consistency and maintainability.
+  - Each tab's logic is stored in a separate module for easy scalability.
 
-## **Getting Started**
-To run this application, follow the steps below:
+## **Technologies Used**
+- **Streamlit**: For building the user interface.
+- **Python**: For backend logic and data manipulation.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/kython220282/Dashboard.git
-   cd streamlit-app
+## **Directory Structure**
+```plaintext
+streamlit_app/
+├── components/
+│   └── common_components.py    # Reusable components like filters
+├── pages/
+│   ├── tab_one.py              # Logic for Tab One
+│   ├── tab_two.py              # Logic for Tab Two
+├── main.py                     # Entry point for the application
+```
+## **Clone this repository:**
+git clone https://github.com/your-username/streamlit-app.git
+cd streamlit-app
+
+## **Install dependencies:**
+pip install -r requirements.txt
