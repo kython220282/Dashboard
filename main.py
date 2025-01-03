@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('Performance Dashboard')
+st.write("-")
 
 st.write('Hello world!')
