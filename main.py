@@ -1,7 +1,7 @@
 import streamlit as st
 
-from pages.tab_one.py import tab_one()
-from pages.tab_two.py import tab_two()
+from pages.tab_one.py import tab_one
+from pages.tab_two.py import tab_two
 
 st.set_page_config(layout="wide")  # Optional: Full-width layout
 
