@@ -1,4 +1,4 @@
-# **Streamlit Multi-Tab Application**
+# **Streamlit Dashboard - Multi-Tab Application with Modular Code Design**
 
 This repository contains a multi-tab application built with [Streamlit](https://streamlit.io/), designed for interactive data visualization and user-friendly interfaces. The application leverages `st.tabs` for a clean and intuitive navigation experience.
 
