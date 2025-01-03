@@ -30,7 +30,7 @@ streamlit_app/
 ├── main.py                     # Entry point for the application
 ```
 ## **Clone this repository:**
-git clone https://github.com/your-username/streamlit-app.git
+git clone https://github.com/kython220282/dashboard.git
 cd streamlit-app
 
 ## **Install dependencies:**
